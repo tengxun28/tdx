@@ -2,7 +2,7 @@
 Name=geren
 ShowName=
 CmdNum=1
-GPSetCode_Code1=1_999999
+GPSetCode_Code1=1_601015
 GPSetCode_Code2=1_600801
 GPSetCode_Code3=1_880542
 GPSetCode_Code4=1_601016
@@ -31,6 +31,9 @@ UserPadFlag=0
 RelType=0
 CTPGroupType=0
 AutoSize=0
+PadMaxCx=0
+PadMaxCy=0
+PadHelpUrl=
 [STEP0]
 SplitWhich=-1
 UnitStr=分析图
@@ -58,6 +61,8 @@ Formula02=VOL
 Formula03=MACD
 FxtColorIndex=
 FxtExpIndex=
+UnitDesc=
+UnitGlStr=
 [STEP1]
 SplitWhich=0
 UnitStr=雷达
@@ -73,6 +78,8 @@ IsCurrent=0
 OneCanShowSwitch=0
 SwitchBarPos=0
 SwitchBarScheme=0
+UnitDesc=
+UnitGlStr=
 [STEP2]
 SplitWhich=-2
 UnitStr=行情
@@ -89,6 +96,9 @@ OneCanShowSwitch=0
 SwitchBarPos=0
 SwitchBarScheme=0
 ShowPkxd=0
+UnitDesc=
+UnitGlStr=
+NoTitleArea=0
 [STEP3]
 SplitWhich=-2
 UnitStr=笔
@@ -104,6 +114,9 @@ IsCurrent=0
 OneCanShowSwitch=0
 SwitchBarPos=0
 SwitchBarScheme=0
+UnitDesc=
+UnitGlStr=
+ShowZjlx=0
 [STEP4]
 SplitWhich=-2
 UnitStr=价
@@ -119,6 +132,8 @@ IsCurrent=0
 OneCanShowSwitch=0
 SwitchBarPos=0
 SwitchBarScheme=0
+UnitDesc=
+UnitGlStr=
 [STEP5]
 SplitWhich=-2
 UnitStr=分析图
@@ -143,6 +158,8 @@ Formula02=VOL
 Formula03=MACD
 FxtColorIndex=
 FxtExpIndex=
+UnitDesc=
+UnitGlStr=
 [STEP6]
 SplitWhich=-2
 UnitStr=上证指数
@@ -161,6 +178,10 @@ SwitchBarScheme=0
 ZstYAxisEmpty=0
 ZstStyle=0
 ZstUnitSwitch=0
+UnitDesc=
+UnitGlStr=
+ZSTManyDay=1
+ManyDayZST=0
 [STEP7]
 SplitWhich=0
 UnitStr=所有市场
@@ -181,6 +202,8 @@ BlockFlag=-1
 ZAFMode=0
 LineSelMode=0
 GridNoSwitch=0
+UnitDesc=
+UnitGlStr=
 [STEP8]
 SplitWhich=0
 UnitStr=分时图
@@ -199,6 +222,10 @@ SwitchBarScheme=0
 ZstYAxisEmpty=0
 ZstStyle=0
 ZstUnitSwitch=0
+UnitDesc=
+UnitGlStr=
+ZSTManyDay=1
+ManyDayZST=0
 [STEP9]
 SplitWhich=2
 UnitStr=空白单元
@@ -214,3 +241,5 @@ IsCurrent=1
 OneCanShowSwitch=0
 SwitchBarPos=0
 SwitchBarScheme=0
+UnitDesc=
+UnitGlStr=

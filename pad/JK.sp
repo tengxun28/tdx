@@ -2,7 +2,7 @@
 Name=¼à¿Ø
 ShowName=
 CmdNum=8
-GPSetCode_Code1=0_002793
+GPSetCode_Code1=1_880881
 GPSetCode_Code2=1_600792
 GPSetCode_Code3=1_880539
 GPSetCode_Code4=1_601006
