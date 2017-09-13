@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>投票结果查询</title>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="./js/datepicker-1.3.0/datepicker.css">
+</head>
+<body style="width:1000px;height:250px;margin:0px auto;">
+
+	<div class="page-header" style="text-align:center">
+		<h3>投票结果查询</h3>
+	</div>
+
+	<div style="margin: 20px 0px;">
+		<span>起始日期：</span>
+		<input type="text" class="input-date" readonly id="startdate">
+		<span>结束日期：</span>
+		<input type="text" class="input-date" readonly id="enddate">
+		<span>股东代码：</span>
+		<select style="width:100px;" id="gddmsel"></select>
+		<input type="button" onclick="queryBtnClick();" value="查询">
+	</div>
+
+	<table class="table table-bordered table-hover" style="text-align:center;" id="tpjgcx">
+		<thead style="background:gray;">
+			<tr id="wtlist"></tr>
+		</thead>
+		<tbody id="tpjg"></tbody>
+	</table>
+
+</body>
+<script type="text/javascript" src="../../jspages/runtime_wltp.js"></script>
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/datepicker-1.3.0/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="./js/json2.js"></script>
+<script type="text/javascript" src="./js/doT.js"></script>
+<script type="text/javascript" src="./js/data.js"></script>
+<script type="text/javascript" src="./js/tpcx.js"></script>
+</html>

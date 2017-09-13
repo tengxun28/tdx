@@ -1,0 +1,172 @@
+body
+{
+  	border-style:none;
+  	padding:0; /* Çå³ý·ÇIEä¯ÀÀÆ÷Ò³±ß¾à */
+  	margin:0; /* Çå³ýIEä¯ÀÀÆ÷Ò³±ß¾à */
+}
+#main
+{
+	position:absolute;
+	left:0;
+	top:0px;
+	width:100%;
+	height:auto;
+	z-index:1;
+}
+#left {
+	position:absolute;
+	left:0;
+	top:20px;
+	width:50%;
+	height:auto;
+	z-index:2;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	margin-right:2px;
+}
+
+#right {
+	position:relative;
+	top:20px;
+	left:50%;
+	width:50%;
+	height:auto;
+	z-index:2;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	margin-left:2px;
+	margin-right:0px;
+}
+
+#all {
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:auto;
+	z-index:2;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	margin-right:2px;
+}
+
+#JudgeCon{
+	position:relative;
+	top:0;
+	left:50%;
+	width:50%;
+	height:auto;
+	z-index:2;
+	margin-left:2px;
+	margin-right:0px;
+}
+
+td
+{
+	font-family:ËÎÌå,Helvetica,sans-serif;
+	font-size: 14px;
+}
+
+a
+{
+	color:#000000;
+	font-family:ËÎÌå,Helvetica,sans-serif;
+	font-size: 14px;
+	hide-focus: expression(this.hideFocus=true);
+	outline: none;
+}
+
+a:link
+{
+	text-decoration: none;
+	color:#000000;
+	font-family:ËÎÌå, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+a:visited
+{
+	text-decoration: none;
+	color:#000000;
+}
+
+a:hover
+{
+	text-decoration: none;
+	color: #0000DC;
+}
+
+a:active
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+a.new:link
+{
+	color:#FF0000;
+}
+
+a.new:visited
+{
+	text-decoration: none;
+	color:#FF0000;
+}
+
+a.new:hover
+{
+	text-decoration: none;
+	color: #0000DC;
+}
+
+a.new:active
+{
+	text-decoration: none;
+	color: #FF0000;
+}
+
+.column
+{
+	background-color:#ffffff;
+	text-align:center;
+	color:#000000;
+	padding:1px;
+}
+
+.row1
+{
+	background-color:#ffffff;
+	padding:3px;
+	vertical-align:middle;
+	text-overflow:ellipsis;white-space:nowrap;overflow: hidden;
+}
+
+.row2
+{
+	background-color:#ffffff;
+	padding:3px;
+	vertical-align:middle;
+	text-overflow:ellipsis;white-space:nowrap;overflow: hidden;
+}
+
+html
+{
+	scrollbar-face-color: #ffffff;
+	scrollbar-shadow-color: #808080;
+	scrollbar-highlight-color: #ffffff;
+	scrollbar-3dlight-color: #808080;
+	scrollbar-darkshadow-color: #ffffff;
+	scrollbar-track-color: #ffffff;
+	scrollbar-arrow-color: #808080;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	font-size: 14px;
+	font-family:ËÎÌå, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #ffffff;
+	background-position: left top;
+}
+

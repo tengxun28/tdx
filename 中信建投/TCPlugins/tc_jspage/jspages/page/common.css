@@ -1,0 +1,166 @@
+﻿*{margin:0;padding:0;}
+
+/*公共样式*/
+body{
+    font-size:12px;
+    color:#000;
+}
+
+/*超链接*/
+a{
+    color:#0A227A;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:underline;
+}
+/*下拉框*/
+.select * {
+margin: 0;
+padding: 0;
+}
+.select {
+border:1px solid #cccccc;
+float: left;
+display: inline;
+}
+
+.select div {
+border:1px solid #909090;
+float: left;
+}
+/* 选FF确IE识 */
+.select>div {
+height: 18px;
+overflow:hidden;
+}
+
+/* 通选只IE识 */
+* html .select div select {
+display:block;
+float: left;
+margin: -2px;
+}
+.select div>select {
+display:block;
+float:none;
+margin: -2px;
+padding: 0px;
+}
+.select:hover {
+border:1px solid #666666; /*系效*/
+}
+.select select>option {
+text-indent: 2px; /*optionFF确IE2px*/
+}
+
+/*清空浮动*/
+.tdx_clear{
+    width:100%;
+    height:0px;
+    clear:both;
+}
+
+/*绿色*/
+.tdx_green{
+    color:green;
+}
+/*红色*/
+.tdx_red{
+    color:red;
+}
+/*绿色*/
+.tdx_gray{
+    color:#666;
+}
+
+ /*交易模版*/
+.tdx_query_box
+{
+	border: #aaa solid 1px;
+	float: left;
+	width: 100%;
+	margin-top: 3px;
+	height: 280px;
+	background: #fff url(images/trans_bg.jpg) repeat-x left top;
+	color: #000;
+}
+.tdx_query_topbar
+{
+	line-height: 26px;
+	border-bottom:#ccc solid 1px;
+	height:26px;
+	background:url(images/space.jpg) repeat-x left bottom;
+}
+.tdx_query_topbar .left
+{
+	float: left;
+	display: inline-block;
+	margin-left: 5px;
+}
+.tdx_query_topbar .label
+{
+	line-height: 24px;
+}
+.tdx_query_topbar .Wdate
+{
+	margin-top: 2px;
+	width: 90px;
+	height: 20px;
+	line-height:19px;
+	overflow: hidden;
+	font-size: 12px;
+	background: url(images/wdate_bg.jpg) left top no-repeat;
+	border: none;
+}
+.tdx_query_topbar .right
+{
+	float: right;
+	display: inline-block;
+	margin-right: 5px;
+}
+.tdx_query_box .btn
+{
+	width: 54px;
+	height: 21px;
+	line-height: 21px;
+	text-align: center;
+	font-size: 12px;
+	color: #000;
+	border: none;
+	background: url(images/query_btn_bg.jpg) no-repeat left top;
+}
+.tdx_query_topbar .btn{
+	margin-top: 1px;
+}
+.tdx_query_box .count
+{
+	background: url(images/query_count_bg.jpg) no-repeat left top;
+	width: 54px;
+	height: 21px;
+}
+.tdx_query_box .txt
+{
+	background:#fff url(images/txtbg.png) repeat-x left top;
+	width: 85px;
+	height: 18px;
+	border:#909090 solid 1px;
+}
+.tdx_query_topbar .txt{
+	margin-top:2px;
+}
+.tdx_query_topbar .check{
+	margin-top:6px;
+	*margin-top:0px;
+}
+.datagrid-body{
+	background:#eee;
+}
+.datagrid-row-selected{
+	background:#eee;
+	color:red;
+}
+
+.confirm_icon{
+	background:url(images/confirm.png) left top no-repeat;
+}

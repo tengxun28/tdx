@@ -1,0 +1,99 @@
+,"custid":glob.khh
+
+<div id="tjyysq" class="easyui-dialog" title="预约申请" style="width:260px;height:180px;top:20px" data-options="modal:true,closed:true,closable:false,resizable:false,draggable:true,maximizable:false,minimizable:false,collapsible:false,inline:true,buttons:[{
+				text:'确定',
+				selected:true,
+				
+				handler:onOkTj
+			},{
+				text:'取消',
+				handler:onCanceTj	
+			}]">
+			<div class="tdx_form_box">
+				<table class="tdx_form">
+					<tr>
+						<td class="form_label dialog_label">头寸开始日期:</td>
+						<td id="tcsdate" class="form_label right_label"></td>
+					</tr>
+					<tr>
+						<td class="form_label dialog_label">头寸结束日期:</td>
+						<td id="tcedate" class="form_label right_label"></td>
+					</tr>
+					<tr>
+						<td class="form_label dialog_label">期望最小金额:</td>
+						<td id="qwzxje" class="form_label right_label"></td>
+					</tr>
+					<tr>
+						<td class="form_label dialog_label">期望最大金额:</td>
+						<td id="qwzdje" class="form_label right_label"></td>
+					</tr>
+					<tr>
+						<td class="form_label dialog_label">期望费率:</td>
+						<td id="qwfl" class="form_label right_label"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		
+		<div id="singlewt1" class="easyui-dialog" title="提示" style="width:260px;height:120px;top:20px" data-options="modal:true,closed:true,closable:false,resizable:false,draggable:true,maximizable:false,minimizable:false,collapsible:false,inline:true,buttons:[{
+				text:'确定',
+				selected:true,
+				
+				handler:onSinOk1
+			},{
+				text:'取消',
+				handler:onSinCance1
+				
+				
+			}]">
+			<div class="tdx_form_box">
+				<table class="tdx_form">
+					<tr>
+						<td id="total" class="form_label"></td>
+					</tr>
+	
+				</table>
+			</div>
+		</div>
+
+		<div id="cd" class="easyui-dialog" title="提示" style="width:260px;height:180px;top:20px" data-options="modal:true,closed:true,closable:false,resizable:false,draggable:true,maximizable:false,minimizable:false,collapsible:false,inline:true,buttons:[{
+				text:'确定',
+				selected:true,
+				
+				handler:onOkCd
+			},{
+				text:'取消',
+				handler:onCanceCd	
+			}]">
+			<div class="tdx_form_box">
+				<table class="tdx_form">
+					<tr>
+						<td class="form_label dialog_label">操作类别:</td>
+						<td id="czlb" class="form_label right_label"></td>
+					</tr>
+					<tr>
+						<td class="form_label dialog_label" id="sqbh">申请编号:</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div id="singlewt2" class="easyui-dialog" title="提示" style="width:260px;height:120px;top:20px" data-options="modal:true,closed:true,closable:false,resizable:false,draggable:true,maximizable:false,minimizable:false,collapsible:false,inline:true,buttons:[{
+				text:'确定',
+				selected:true,
+				
+				handler:onSinOk2
+			},{
+				text:'取消',
+				handler:onSinCance2
+				
+				
+			}]">
+			<div class="tdx_form_box">
+				<table class="tdx_form">
+					<tr>
+						<td id="total" class="form_label"></td>
+					</tr>
+	
+				</table>
+			</div>
+		</div>

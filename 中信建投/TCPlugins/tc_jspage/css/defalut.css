@@ -1,0 +1,196 @@
+
+body {
+	font: 10px '微软雅黑',Verdana,Tahoma;
+	background: #FFF;
+	font-size: 10px;
+	color: #333;
+	overflow-y:hidden;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul, li {
+	list-style: none;
+	list-style-image: none;
+}
+a {
+	color: #00349a;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a img {
+	border: 0;
+}
+
+.box {
+	border: 1px solid #92b2c9;
+	height: auto;
+}
+
+.t3 {
+	display: block;
+}
+
+.titleStyle {
+	background: url(../images/bgCache.gif) repeat-x;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+b.tl {
+	background: url(../images/elementCache.gif) no-repeat;
+	float: left;
+	display: block;
+ 	background-position: 0 -30px;
+    display: inline;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 8px;
+    overflow: hidden;
+    width: 10px;
+}
+
+.titleStyle {
+	height: 28px;
+	line-height: 28px;
+	padding-top: 2px;
+	padding-left: 3px;
+	border-bottom: 1px solid #92b2c9;
+	display: block;
+	background-position: 0 -261px;
+	overflow: hidden;
+}
+
+.titleStyle .tit {
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 8px;
+}
+.titleStyle a {
+	margin-right: 5px;
+	color: #333;
+}
+
+
+.at{
+	color: #ff3300;
+}
+
+
+.bruntCarrying {
+	margin-top: 3px;
+	overflow: hidden;
+}
+.bruntCarrying li.rank {
+	width: 150px;
+}
+
+.skrk{
+	width: 60px;
+}
+
+.datek{
+	width: 100px;
+	}
+
+
+.bruntCarrying li.change {
+	width: 52px;
+	border-right: 0 #92b2c9 solid;
+}
+.kk {
+	border-top: 1px #92b2c9 solid;
+	border-right: 1px #92b2c9 solid;
+	border-left: 1px #92b2c9 solid;
+	border-bottom: 1px #92b2c9 solid;
+}
+
+.kk_red {
+	background-color: #cccccc;
+	border-top: 1px #92b2c9 solid;
+	border-right: 1px #92b2c9 solid;
+	border-left: 1px #92b2c9 solid;
+	border-bottom: 1px #92b2c9 solid;
+}
+
+.selects{
+	border-top: 1px #92b2c9 solid;
+	border-right: 1px #92b2c9 solid;
+	border-left: 1px #92b2c9 solid;
+	border-bottom: 1px #92b2c9 solid;
+	width: 150px;
+
+}
+
+.h23 ul {
+	height: 23px;
+	overflow: hidden;
+	clear: both;
+}
+.h23 li {
+	height: 23px;
+	line-height: 23px;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+	border-right: 1px #92b2c9 solid;
+}
+.h23 .tit {
+	background-color: #eff6fc;
+	border-bottom: 1px #92b2c9 solid;
+}
+
+.odd {
+	background-color: #eee;
+}
+
+.btn_2k3
+{
+	border-left: 0px solid;
+	border-right: 0px solid;
+	border-top: 0px solid;
+	border-bottom: 0px solid;
+	background: url(../images/btn.gif) no-repeat;
+	width: 70px;
+	height: 20px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+	text-decoration: none;
+	margin: 0 6px;
+	color: #000000;
+	cursor: pointer;
+}
+
+.btn_2k3:hover
+{
+	background-position: 0 -20px;
+	color: #000000;
+}
+
+.trs{
+	border-bottom: 1px #92b2c9 solid;
+	border-left: 1px #92b2c9 solid;
+}
+
+
+.tr1{
+	color: #e6951f;
+}
+
+.tr2{
+	color: #ff3333;
+}
+
+

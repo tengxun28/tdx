@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=7">
+	<title>投票议案内容</title>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap-theme.min.css">
+	<style type="text/css">
+	.div { 
+		float: left;
+		font-size: 14px;
+	}
+	.a-back {
+		margin-top: -80px;
+		margin-left: 10px;
+		background: url(./images/back.png);
+		display: inline-block;
+		height: 47px;
+		width: 47px;
+	}
+	</style>
+</head>
+<body style="width:1000px;margin:0px auto;">
+
+	<div class="page-header" style="text-align:center;">
+		<h3 id="gddh-title"></h3>
+	</div>
+
+	<div>
+	 <a class="a-back" href="javascript:history.go(-1);"></a>
+	</div>
+
+	<div class="row" style="margin:15px 0px;">
+		<div class="div"><span style='width:60px;'>请选择证券代码：</span>
+			<select style="width:100px;height:22px;" id="tpsel" class="tpselect" onchange="tpSelChange(this)"></select></div>
+
+		<div class="div">
+			<span style="margin-left:30px;">请选择股东代码：</span>
+			<span style="margin-left:100px;width:18px;overflow:hidden;display:inline-block;">
+				<select style="width:120px;margin-left:-100px;"
+					id="gddmsel" onchange="gddmchange(this.value);">
+					<option>hello</option>
+					<option>world</option>
+					<option>gogo</option>
+				</select>
+			</span>
+			<input type="text" id="gddmtext" 
+				style="width:100px; height:18px; margin-left:-120px;"
+				onchange="gddmtextchange(this.value);">
+			<!-- <span style="margin-left:24px;">股权登记日:</span
+			><span id="gqdjr"></span>
+			<span style="margin-left:10px;" id="tpjg" 
+				style="color:red;font-weight:bold;"></span> -->
+		</div>
+		<div style="clear:both;"></div>
+	</div>
+
+	<table class="table table-bordered table-hover" style="text-align:center;" id="fljxya">
+		<thead style="background:gray;">
+			<tr>
+				<td colspan="2" rowspan="2" style="font:16px/3.5 '微软雅黑';font-weight:bold; text-align:left; text-indent:24px;" >非累积投票议案</td>
+				<td>同意</td>
+				<td>反对</td>
+				<td>弃权</td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="radiohead" class="radiohead" value="1"></td>
+				<td><input type="radio" name="radiohead" class="radiohead" value="2"></td>
+				<td><input type="radio" name="radiohead" class="radiohead" value="3"></td>
+			</tr>
+		</thead>
+		<tbody id="fljx"></tbody>
+	</table>
+
+	<table class="table table-bordered table-hover" style="text-align:center;" id="ljxya">
+		<thead style="background:gray;">
+			<tr>
+				<td rowspan="2" colspan="2" style="text-align:left;">
+					<span style="font:16px/3.5 '微软雅黑';font-weight:bold; text-align:left; text-indent:24px;">累积型投票议案</span>
+					<span style="font:12px/2 '微软雅黑';text-align:left;color:black;text-indent:24px;">(采取累积投票制选举，对于每个选举议案组，股东可投票总数=股东持股数 * 当选人数)</span>
+				</td>
+				<td rowspan="2" style="font:14px/3.5 '微软雅黑';">投票数(股)</td>
+			</tr>
+		</thead>
+		<tbody id="ljx"></tbody>
+	</table>
+
+	<div>
+		<input style="float:right;" type="button" onclick="tpSubmit();" id="tpsubmit" value="投票结果提交">
+	</div>
+
+</body>
+<script type="text/javascript" src="../../jspages/runtime_wltp.js"></script>
+<script type="text/javascript" src="./js/json2.js"></script>
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/doT.js"></script>
+<script type="text/javascript" src="./js/data.js"></script>
+<script type="text/javascript" src="./js/tpya.js"></script>
+
+<script type="text/template" id="vttpl">
+	{{~it:item:index}}
+		<tr>
+			<td>{{=item[0]}}</td>
+			<td>{{=item[1]}}</td>
+		</tr>
+	{{~}}
+</script>
+
+<script type="text/template" id="tpl1">
+	{{~it:item:index}}
+	<tr class="row{{=(parseInt(item['F1052']))}}">
+		{{
+			if(item["F88888"] == 1) {
+		}}
+				<td style="text-align:left;">{{=item["F1052"]}}</td>
+		{{
+			} else {
+		}}
+				<td style="text-align:center;">{{=item["F1052"]}}</td>
+		{{
+			}
+		}}
+				<td style="text-align:left">{{=item["F1053"]}}</td>
+		{{
+			if(item["F99999"] == 1) {
+		}}
+				<td><input type="radio" name="{{=item['F1052']}}" class="radiohead2" value="1"></td>
+				<td><input type="radio" name="{{=item['F1052']}}" class="radiohead2" value="2"></td>
+				<td><input type="radio" name="{{=item['F1052']}}" class="radiohead2" value="3"></td>
+		{{
+			} else {
+		}}
+			<td><input type="radio" name="{{=item['F1052']}}" class="radiobody" value="1"></td>
+			<td><input type="radio" name="{{=item['F1052']}}" class="radiobody" value="2"></td>
+			<td><input type="radio" name="{{=item['F1052']}}" class="radiobody" value="3"></td>
+		{{
+			}
+		}}
+	</tr>
+	{{~}}
+</script>
+
+<script type="text/template" id="tpl2">
+
+	<tr>
+		{{var item = it[0];}}
+		<td>{{=item["F1052"]}}</td>
+		<td style="text-align:left">{{=item["F1053"]}}</td>
+		<td>当选人数:{{=item["F1054"]}}</td>
+	</tr>
+
+	{{
+		for(var i = 1; i < it.length; i++) {
+			var item = it[i];
+	}}
+		<tr>
+			<td>{{=item["F1052"]}}</td>
+			<td style="text-align:left;">{{=item["F1053"]}}</td>
+			<td><input class="ljxya-vote {{=parseInt(item['F1052'])}}" 
+			type="text" id="{{=item['F1052']}}" 
+			cls="{{=parseInt(item['F1052'])}}" 
+			total="{{=item['F1054']}}"></td>
+		</tr>
+	{{
+		}
+	}}
+</script>
+
+</html>

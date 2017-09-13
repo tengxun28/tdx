@@ -1,0 +1,289 @@
+*{
+	margin:0;
+	padding:0;
+	/*滚动条样式*/
+    scrollbar-face-color:#DEDEDE;
+	scrollbar-base-color:#F5F5F5;
+	scrollbar-arrow-color:black;
+	scrollbar-track-color:#F5F5F5;
+	scrollbar-shadow-color:#EBF5FF;
+	scrollbar-highlight-color:#F5F5F5;
+	scrollbar-3dlight-color:#C3C3C3;
+	scrollbar-darkshadow-Color:#9D9D9D;
+}
+/*公共样式*/
+body{
+    font-size:12px;
+    color:#000;
+}
+
+/*超链接*/
+a{
+    color:#0A227A;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:underline;
+}
+/*下拉框*/
+.select * {
+margin: 0;
+padding: 0;
+}
+.select {
+border:1px solid #cccccc;
+float: left;
+display: inline;
+}
+
+.select div {
+border:1px solid #909090;
+float: left;
+}
+/* 选FF确IE识 */
+.select>div {
+height: 18px;
+overflow:hidden;
+}
+
+/* 通选只IE识 */
+* html .select div select {
+display:block;
+float: left;
+margin: -2px;
+}
+.select div>select {
+display:block;
+float:none;
+margin: -2px;
+padding: 0px;
+}
+.select:hover {
+border:1px solid #666666; /*系效*/
+}
+.select select>option {
+text-indent: 2px; /*optionFF确IE2px*/
+}
+
+/*清空浮动*/
+.tdx_clear{
+    width:100%;
+    height:0px;
+    clear:both;
+}
+
+/*绿色*/
+.tdx_green{
+    color:green;
+}
+/*红色*/
+.tdx_red{
+    color:red;
+}
+/*绿色*/
+.tdx_gray{
+    color:#666;
+}
+
+.tdx_loading{
+	margin:10px;
+}
+ /*交易模版*/
+.tdx_query_box,.easyui-window
+{
+	background: #fff url(images/trans_bg_.jpg) repeat-x left top;
+	color: #000;
+}
+.tdx_query_topbar
+{
+	line-height: 26px;
+	border-bottom:#ccc solid 1px;
+	height:26px;
+	background:url(images/space.jpg) repeat-x left bottom;
+}
+.tdx_query_topbar .left
+{
+	float: left;
+	display: inline-block;
+	margin-left: 5px;
+}
+.tdx_query_topbar .label
+{
+	line-height: 24px;
+}
+.tdx_query_topbar .Wdate
+{
+	margin-top: 2px;
+	width: 90px;
+	height: 18px;
+	line-height:18px;
+	overflow: hidden;
+	font-size: 12px;
+	background:#fff url(images/wdate_bg.jpg) 72px 1px no-repeat;
+	border:#909090 solid 1px;
+}
+.tdx_query_topbar .right
+{
+	float: right;
+	display: inline-block;
+	margin-right: 5px;
+}
+.tdx_query_box .btn
+{
+	width: 54px;
+	height: 21px;
+	line-height: 21px;
+	text-align: center;
+	font-size: 12px;
+	color: #000;
+	border: none;
+	background: url(images/query_btn_bg.jpg) no-repeat left top;
+}
+.tdx_query_topbar .btn,.tdx_query_topbar .btn2,,.tdx_query_topbar .btn3{
+	margin-top: 1px;
+}
+.tdx_query_box .btn2
+{
+	width: 64px;
+	height: 21px;
+	line-height: 21px;
+	text-align: center;
+	font-size: 12px;
+	color: #000;
+	border: none;
+	background: url(images/query_btn_bg2.jpg) no-repeat left top;
+}
+.tdx_query_box .btn3
+{
+	width: 36px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 12px;
+	color: #000;
+	border: none;
+	background: url(images/query_btn_bg3.png) no-repeat left top;
+}
+.tdx_query_box .count
+{
+	background: url(images/query_count_bg_.jpg) no-repeat left top;
+	width: 54px;
+	height: 21px;
+}
+.tdx_query_box .txt
+{
+	background:#fff url(images/txtbg.png) repeat-x left top;
+	width: 85px;
+	height: 18px;
+	border:#909090 solid 1px;
+}
+.tdx_query_topbar .txt{
+	margin-top:2px;
+}
+.tdx_query_topbar .check{
+	margin-top:6px;
+	*margin-top:0px;
+}
+.confirm_txt{
+	float:left;
+	display:inline-block;
+}
+.confirm_txt p{
+	line-height:20px;
+}
+.btns_v .btn,.btns_v .btn2,.btns_v .btn3{
+	margin-bottom:3px;
+	margin-left:5px;
+}
+.datagrid-body{
+	background:#fff;
+}
+.datagrid-row-selected{
+	background:#FFF0A5;
+	color:#000;
+}
+
+
+/*表格样式*/
+
+.tdx_table{
+	width:100%;
+	margin-top:8px;
+	margin-left:3px;
+}
+.tdx_form{
+	
+}
+.tdx_form td{
+	padding:1px;
+}
+.form_label{
+	text-align:right;
+}
+.form_val{
+	text-align:left;
+}
+.form_ext{
+	text-align:left;
+}
+.form_val .easyui-numberspinner{
+	width:130px;
+	background:#fff url(images/txtbg.png) repeat-x left top;
+}
+.form_val .spinner{
+	border:#909090 solid 1px;
+}
+.form_input{
+	background:#fff url(images/txtbg.png) repeat-x left top;
+	width: 130px;
+	height: 18px;
+	line-height:18px;
+	border:#909090 solid 1px;
+}
+.form_val .Wdate{
+	width: 130px;
+	height: 20px;
+	line-height:19px;
+	overflow: hidden;
+	font-size: 12px;
+	background:#fff url(images/wdate_bg.jpg) 112px center no-repeat;
+	border:#909090 solid 1px;
+	margin-left:-2px;
+}
+.form_val select{
+	width:134px;
+}
+.form_disabled{
+	background:#eee;
+}
+.tdx_form_box fieldset{
+	width:95.5%;
+}
+.tdx_form_box fieldset p{
+	line-height:24px;
+}
+.tdx_form_box{
+	margin:8px;
+	padding-bottom:10px;
+}
+.tdx_form_box .tdx_query_topbar{
+	background:none;
+	border:none;
+}
+.tdx_form_box .form_item{
+	float:left;
+	display:inline-block;
+}
+
+.loading{
+	background:url(images/loading.gif) center center no-repeat;
+}
+#mask{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:50000;
+	background-color:#fff;
+}

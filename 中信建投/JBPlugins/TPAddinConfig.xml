@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" standalone="yes" ?>
+<TPAddins>
+	<TPAddin name="TPAddinCloud" dll="TPAddinCloud.dll" mod="ZXG" pivotal="YES" enable="YES" />
+</TPAddins>

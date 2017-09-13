@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>中信建投证券首页</title>
+	<link rel="stylesheet" type="text/css" href="./lib/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+	<!--**********载入首页内容配置信息****************-->
+    <script type="text/javascript" src="./config.js"></script>
+    <!--**********************************************-->
+	
+	<script type="text/javascript" src="./lib/jquery-2.0.0.min.js"></script>
+	<script type="text/javascript" src="./lib/ts_client.js"></script>
+	<script type="text/javascript" src="./lib/des3.js"></script>
+	<script type="text/javascript" src="./lib/highcharts.src.js"></script>
+
+	<script type="text/javascript" src="./js/main.js"></script>
+
+	<script type="text/javascript">
+        if(screen.width < 1250) {
+            document.write(unescape("%3Clink href='./css/style_1024.css' rel='stylesheet' /%3E"));
+        }
+    </script>
+</head>
+<body>
+	<div id="outbox">
+		<div id="homecontent">
+			<!-- 顶部导航链接 -->
+			<div id="zxjtnav">
+				<div id="leftnav">
+					<div class="navitem">
+						<li><a href="http://www.treeid/SZAG">沪深行情</a></li>
+						<li><a href="http://www.treeid/HK">港股行情</a></li>
+						<li><a href="http://www.treeid/QH">期货行情</a></li>
+						<li><a href="http://www.treeid/BLOCKZS">板块指数</a></li>
+						<li><a href="http://www.treeid/HOTBLOCK">热门板块</a></li>
+						<li><a href="http://www.treeid/MODULE14">资金博弈</a></li>
+					</div>
+					<div class="navitem">
+						<li><a href="http://www.treeid/MODULE13">资金驱动力</a></li>
+						<li><a href="http://www.treeid/ZSF11">数据纵览</a></li>
+						<li><a href="http://www.treeid/TDX_BLOCKMAP">板块地图</a></li>
+						<li><a href="http://www.treeid/jsviewinnerhttp://##tdxcloudaddress_tp##/site/stock/gp_rl.htm?dv=h&ispc=1#/gp_gsrl">股市日历</a></li>
+						<li style="position: relative;"><a href="http://www.treeid/jsviewinnerhttp://##tdxcloudaddress_tp##/site/stock/gp_xgzx.htm?dv=h&ispc=1">新股中心</a><span style="position: absolute; margin: -10px 0 0 -3px;"><img src="./images/hot.png"></span></li>
+						<li><a href="http://www.treeid/MSGBOX">消息中心</a></li>
+					</div>
+				</div>
+				<div id="navdivide"></div>
+				<div id="rightnav">
+					<li><a href="http://www.treeid/http://www.csc108.com/newsite/businesshall/fastTrade.jsp">WEB交易</a></li>
+					<li><a href="http://www.treeid/https://account.csc108.com/">网上开户</a></li>
+					<li><a href="http://www.treeid/http://www.csc108.com/">官方网站</a></li>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<!-- banner,个人中心 -->
+			<div id="bannernav">
+				<div id="banner">
+					<a href="http://www.treeid/http://www.csc108.com/">
+						<img src="./images/banner.jpg" style="width: 100%; height: 210px; border-radius: 5px;">
+					</a>
+					<div id="banner_change">
+					</div>
+				</div>
+				<div id="percenter">
+					<div id="khxx">
+						<div>
+							<img src="./images/head-out.png" style="width: 53px; margin: 15px 10px 0 10px; height: 53px; float: left;">
+							<div style="float: left;color: #BBB;">
+								<li style="max-width: 175px;margin-top: 20px;white-space: nowrap;overflow: hidden;"><span>客户名称：</span><span id="khmc"></span></li>
+								<li style="max-width: 175px;white-space: nowrap;overflow: hidden;"><span>资金账号：</span><span id="zjzh"></span></li>
+							</div>
+							<div class="clear"></div>
+						</div>
+						<div style="margin: 5px 20px 0 5px;color: #BBB;margin-left: 10px;">
+							<span>所在营业部：</span><span id="szyyb"></span>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="per-other">
+						<li class="per-btn" id="per_login"><a href="http://www.treeid/JY" style="background-color: rgb(4, 177, 215);">&nbsp;&nbsp;登&nbsp;&nbsp;录&nbsp;&nbsp;</a></li>
+						<li class="per-btn" id="per_question"><a href="http://www.treeid/https://account.csc108.com/" style="background-color: rgb(237, 104, 64);">马上开户</a></li>
+						<!-- <li class="per-btn"><a href="javascript:void(0)" id="youwen" style="background-color: rgb(237, 104, 64);">我要提问</a></li> -->
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<!-- 资讯中心 -->
+			<div id="zxjt_zxzx">
+				<div class="zx-left">
+					<div id="zxjt_ad1">
+						<a href="http://www.treeid/http://www.csc108.com/">
+							<img src="./images/ad_default.jpg" style="width: 100%;height: 100%;border-radius: 5px; border: 1px solid #E6E9F1;">
+						</a>
+						<div id="zxjt_ad1_title" style="cursor: pointer;"></div>
+					</div>
+					<div id="plate_index">
+						<div style="border: 1px solid #E6E9F1; height: 100%;">
+							<div class="stockCenter" style="width: 100%; height: 70%; margin-top: -20px;">
+								<div class="sc-cont" id="stockContent" style="clear:both">
+									<div style="" id="hq_CSI">
+										<dl class="sc-cont-tabs">
+											<dt class="hq_sh"><span><a href="#">上证</a></span></dt>
+											<dt class="hq_sz"><span><a href="#">深证</a></span></dt>
+											<dt class="hq_300"><span><a href="#">300</a></span></dt>
+											<dt class="hq_cy"><span><a href="#">创业</a></span></dt>
+											<dt class="hq_zx"><span><a href="#">中小</a></span></dt>
+										</dl>
+										<div class="clear"></div>
+										<div class="sc-cont-img" style="padding: 5px;">
+											<div id="hq_sh">
+												<span style="width:70px;display: block;float: left;font-weight: 600;">上证指数</span>
+												<span style="width:60px;display: block;float: left" id='sh_span1'></span>
+												<span id='sh_span2' style="display: block;float: left"></span>
+											</div>
+											<div id="hq_sz" style="display:none">
+												<span style="width:70px;display: block;float: left;font-weight: 600;">深证成指</span>
+												<span style="width:60px;display: block;float: left" id='sz_span1'></span>
+												<span id='sz_span2' style="display: block;float: left"></span>
+											</div>
+											<div id="hq_300" style="display:none">
+												<span style="width:70px;display: block;float: left;font-weight: 600;">沪深300</span>
+												<span style="width:60px;display: block;float: left" id='300_span1'></span>
+												<span id='300_span2' style="display: block;float: left"></span>
+											</div>
+											<div id="hq_cy" style="display:none">
+												<span style="width:70px;display: block;float: left;font-weight: 600;">创业板指</span>
+												<span style="width:60px;display: block;float: left" id='cy_span1'></span>
+												<span id='cy_span2' style="display: block;float: left"></span>
+											</div>
+											<div id="hq_zx" style="display:none">
+												<span style="width:70px;display: block;float: left;font-weight: 600;">中小板指</span>
+												<span style="width:60px;display: block;float: left" id='zx_span1'></span>
+												<span id='zx_span2' style="display: block;float: left"></span>
+											</div>
+											<div id="wdcc_div" class="sc-cont-imglink" style="width: 100%; height: 250px;"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="zx-right">
+					<div id="zx_center">
+						<div id="infomation">
+							<div id="zx_center_title">
+								<div style="font-size: 16px;font-weight: bold;border-bottom: 2px solid rgb(238, 36, 36);padding: 2px 20px 5px 0;float: left;color: rgb(238, 36, 36);">今日焦点</div>
+								<span class="more" onclick="getMoreZx(0)" style="cursor: pointer;">更多 ></span>
+								<div style="z-index: -1;border-bottom: 1px solid #E6E9F1;width: 100%;height: 32px;"></div>
+								<div class="clear"></div>
+							</div>
+						</div>
+						<div id="zxjt_ad2">
+							<div class="zxjt-ad2-img">
+								<a href="javascript: void(0)">
+									<img src="./images/youwen.jpg" style="width: 100%;height: 100%;border-top-left-radius: 5px;border-top-right-radius: 5px;">
+								</a>
+							</div>
+							<div style="padding: 0 10px;">
+								<li id="zxjt_ad2_title"><a href="javascript:void(0)">找准股市的决定性因素</a></li>
+								<li id="zxjt_ad2_info">人民币实际有效汇率的走高将进一步加剧出口市场风险，最终股市和汇率反而都保不住...</li>
+								<li style="border-bottom: 1px dashed #E6E9F1;list-style: none;margin: 5px 0;"></li>
+								<li class="zxjt-ad2-link"><a href="javascript:void(0)">2016买房不如买股，成长投资是最好方式</a></li>
+								<li class="zxjt-ad2-link"><a href="javascript:void(0)"></a></li>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div id="zx_zxg">
+						<div id="zxg_ccg">
+							<div id="zxccnav">
+								<li id="zxg_zx" style="padding-right: 15px;">自选股资讯</li>
+								<span id="zxdivide"></span>
+								<li id="ccg_zx" style="padding-left: 15px;">持仓股资讯</li>
+								<span class="more" onclick="getMoreZx(1)" style="cursor: pointer;">更多 ></span>
+								<div style="z-index: -1;border-bottom: 1px solid #E6E9F1;width: 100%;"></div>
+								<div class="clear"></div>
+							</div>
+							<div id="zxcc_zxinfo"><div style="padding: 10px; font-size: 14px;">自选股资讯提示：<br>目前还没有自选股！</div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 广告条 -->
+			<div class="ad-item">
+				<img src="./images/aditem.jpg" style="width: 100%; height: 40px;">
+			</div>
+			<!-- 资讯信息 -->
+			<div id="tdxzx">
+				<div class="tdxzx-item">
+					<div class="tdxzx-nav">
+						<span class="tdxzx-title">晨会晨报</span>
+						<span class="tdxzx-more" onclick="getMoreZx(7)">更多</span>
+					</div>
+					<div id="zx_chcb"></div>
+				</div>
+				
+				<div class="tdxzx-item">
+					<div class="tdxzx-nav">
+						<span class="tdxzx-title">焦点新闻</span>
+						<span class="tdxzx-more" onclick="getMoreZx(3)">更多</span>
+					</div>
+					<div id="zx_jdxw"></div>
+				</div>
+				<div class="tdxzx-item">
+					<div class="tdxzx-nav">
+						<span class="tdxzx-title">要闻精华</span>
+						<span class="tdxzx-more" onclick="getMoreZx(4)">更多</span>
+					</div>
+					<div id="zx_ywjh"></div>
+				</div>
+				<div class="tdxzx-item">
+					<div class="tdxzx-nav">
+						<span class="tdxzx-title">盘前参考</span>
+						<span class="tdxzx-more" onclick="getMoreZx(2)">更多</span>
+					</div>
+					<div id="zx_pqck"></div>
+				</div>
+				<div class="tdxzx-item">
+					<div class="tdxzx-nav">
+						<span class="tdxzx-title">机构热点</span>
+						<span class="tdxzx-more" onclick="getMoreZx(5)">更多</span>
+					</div>
+					<div id="zx_jgrd"></div>
+				</div>
+				<div class="tdxzx-item">
+					<div class="tdxzx-nav">
+						<span class="tdxzx-title">盘后回顾</span>
+						<span class="tdxzx-more" onclick="getMoreZx(6)">更多</span>
+					</div>
+					<div id="zx_phhg"></div>
+				</div>
+				
+				<div class="clear"></div>
+			</div>
+		</div>
+		<!-- 二维码 -->
+		<div id="zxjt_ewm">
+			<div class="ewm-item" id="ewm1">
+			</div>
+			<div class="ewm-item" id="ewm2">
+			</div>
+			<div id="zxjt_kfdh">
+				<img src="./images/kfdh.jpg">
+			</div>
+		</div>
+	</div>
+
+	<div id="more_bk"></div>
+	<div id="more_dlg">
+		<div id="more_head">
+			<span>资讯中心</span>
+			<a href="javascript:void(0);" id="more_close" onclick="closeMoreDlg()">X</a>
+		</div>
+		<div id="more_body">
+		</div>
+	</div>
+</body>
+</html>

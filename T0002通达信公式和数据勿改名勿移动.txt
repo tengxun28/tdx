@@ -1,1 +1,0 @@
-mklink /d "C:\Program Files (x86)\通达信"\T0002  C:\wangyaohui\T0002通达信公式和数据勿改名勿移动

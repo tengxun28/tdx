@@ -1,0 +1,112 @@
+.form_input{
+	width: 140px;
+}
+.form_label{
+	width: 130px;
+}
+.label_otc{
+    width: 60px;
+}
+.label_five{
+    width: 80px;
+}
+.unit_input{
+    width: 120px;
+}
+.unit_span{
+    width: 15px;
+}
+.form_val .btn3{
+    margin-left:1px;
+}
+.two_input{
+    width: 95px;
+}
+.form_val_five{
+    width:120px;
+}
+.five_unit{
+    width: 100px;
+}
+.val_five{
+    width: 75px;
+}
+.five_unit3 div > select{
+    width: 100px;
+}
+.five_unit2 select{
+    width: 120px;
+
+}
+
+.tab_cpinfo li {
+    float: left;
+    width: 54px;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 1px;
+    height: 21px;
+    line-height: 21px;
+    list-style-type:none;
+    display: inline-block;
+    background: url('../../tlib/page/images/query_btn_bg.jpg') no-repeat scroll left top transparent;
+    border: medium none;
+}
+
+.cd .datagrid-header {
+    border-top: 1px #DDD solid;
+}
+
+.tab_cpinfo li.at {
+  
+    font-weight: bold;
+}
+.tab_cpinfo a{
+    color:#000000;
+}
+.tdx_query_box .cj{
+	float: right;
+	display: inline-block;
+	margin-right: 10px;
+}
+.tab_cpinfo a:link,
+.tab_cpinfo a:active,
+.tab_cpinfo a:hover,
+.tab_cpinfo a:visited
+ { text-decoration: none;}
+ .dialog-button{
+    text-align: center;
+    border-top: 0px solid #DDD;
+ }
+ .dialog_label{
+    width: 80px;
+ }
+.right_label{
+    text-align: left
+
+}
+
+
+a.l-btn-selected span.l-btn-left{
+    background-position: 0px -48px;
+    
+}
+a.l-btn-selected{
+    background-position: right 0px;
+}
+
+.ui-widget-content{
+    border: 1px solid #BEBEBE;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+   
+   
+    border: 1px solid #BEBEBE;
+    background: none;
+}
+
+.ui-widget-content{
+    background: none;
+}

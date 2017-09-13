@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ProfileOfSystem>
+	<Classification Prompt="服务券商">
+		<ITEM ClassificationName="中信建投" QsTag="中信建投" Version="20170420">
+			<Misc>
+				<Option SwapCombo="0" ColorYzm="1" ZJZHMaxLen="0" MustDigitPwd="0" MustAccountLen="0" MaxAccountLen="8" AqfsCombo="0" UrlApplyAuthPass="" UrlModifyAuthPass="" HasCXMode="0" AuthPassInfo="" MustTXMM="0" VipXMB="0" FilterHostType="9" ZHListShowYYB="0" ForbidSaveZH="0"/>
+			</Misc>
+			<Site>
+				<ITEM Name="中信建投北京联通1" Address="202.130.235.187" Port="7708" Weight="0" idelay="0" TradVer="NO" HostType="0" yybids="" areas=""/>
+				<ITEM Name="中信建投上海电信1" Address="180.153.15.133" Port="7708" Weight="0" idelay="0" TradVer="NO" HostType="0" yybids="" areas=""/>
+				<ITEM Name="中信建投沈阳联通1" Address="218.25.17.14" Port="7708" Weight="0" idelay="0" TradVer="NO" HostType="0" yybids="" areas=""/>
+				<ITEM Name="中信建投南京电信1" Address="202.102.62.137" Port="7708" Weight="0" idelay="0" TradVer="NO" HostType="0" yybids="" areas=""/>
+				<ITEM Name="中信建投武汉电信1" Address="221.232.161.71" Port="7708" Weight="0" idelay="30" TradVer="NO" HostType="0" yybids="" areas=""/>
+				<ITEM Name="中信建投济南联通1" Address="60.217.228.15" Port="7708" Weight="0" idelay="0" TradVer="NO" HostType="0" yybids="" areas=""/>
+				<ITEM Name="中信建投天津联通" Address="60.28.29.77" Port="7708" Weight="0" idelay="0" TradVer="NO" HostType="0" yybids="" areas=""/>
+				<ITEM Name="中信建投成都电信1" Address="125.64.41.16" Port="7708" Weight="0" idelay="30" TradVer="NO" HostType="0" yybids="" areas=""/>
+				<ITEM Name="中信建投北京联通2" Address="111.202.84.8" Port="7708" Weight="0" idelay="0" TradVer="NO" HostType="0" yybids="" areas=""/>
+				<ITEM Name="中信建投广州电信" Address="59.42.241.68" Port="7708" Weight="0" idelay="40" TradVer="NO" HostType="0" yybids="" areas=""/>
+				<ITEM Name="中信建投上海移动" Address="117.184.136.36" Port="7708" Weight="0" idelay="0" TradVer="NO" HostType="0" yybids="" areas=""/>
+				<ITEM Name="中信建投北京联通BGP" Address="103.233.136.41" Port="7708" Weight="0" idelay="0" TradVer="NO" HostType="0" yybids="" areas=""/>
+				<ITEM Name="中信建投南昌移动" Address="117.169.77.135" Port="7708" Weight="0" idelay="0" TradVer="NO" HostType="0" yybids="" areas=""/>
+				<ITEM Name="中信建投长沙电信" Address="175.6.17.167" Port="7708" Weight="0" idelay="0" TradVer="NO" HostType="0" yybids="" areas=""/>
+				<ITEM Name="中信建投上海电信3" Address="116.236.205.238" Port="7708" Weight="0" idelay="0" TradVer="NO" HostType="0" yybids="" areas=""/>
+				<ITEM Name="中信建投北京移动" Address="111.13.108.80" Port="7708" Weight="0" idelay="0" TradVer="NO" HostType="0" yybids="" areas=""/>
+				<ITEM Name="中信建投上海联通2" Address="220.196.60.234" Port="7708" Weight="0" idelay="0" TradVer="NO" HostType="0" yybids="" areas=""/>
+				<ITEM Name="中信建投济南联通2" Address="tdxjyjn2.csc108.com" Port="7708" Weight="0" idelay="0" TradVer="NO" HostType="0" yybids="" areas=""/>
+				<ITEM Name="中信建投新疆电信" Address="tdxxj.csc108.com" Port="7708" Weight="0" idelay="0" TradVer="NO" HostType="0" yybids="" areas=""/>
+				<ITEM Name="中信建投阿里云" Address="112.124.212.20" Port="7708" Weight="0" idelay="0" TradVer="NO" HostType="0" yybids="" areas=""/>
+				<ITEM Name="中信建投广州电信80端口" Address="59.42.241.78" Port="80" Weight="0" idelay="0" TradVer="NO" HostType="0" yybids="" areas=""/>
+				<ITEM Name="中信建投天津联通80端口" Address="60.28.29.77" Port="80" Weight="0" idelay="0" TradVer="NO" HostType="0" yybids="" areas=""/>
+				<ITEM Name="中信建投信用北京联通" Address="202.130.235.187" Port="7718" Weight="0" idelay="0" TradVer="NO" HostType="1" yybids="" areas=""/>
+				<ITEM Name="中信建投信用北京移动" Address="111.13.108.80" Port="7718" Weight="0" idelay="0" TradVer="NO" HostType="1" yybids="" areas=""/>
+				<ITEM Name="中信建投信用上海电信" Address="tdxrzrqsh.csc108.com" Port="7718" Weight="0" idelay="0" TradVer="NO" HostType="1" yybids="" areas=""/>
+				<ITEM Name="中信建投信用南京电信" Address="202.102.62.138" Port="7718" Weight="0" idelay="0" TradVer="NO" HostType="1" yybids="" areas=""/>
+				<ITEM Name="中信建投信用成都电信" Address="125.64.41.16" Port="7718" Weight="0" idelay="0" TradVer="NO" HostType="1" yybids="" areas=""/>
+				<ITEM Name="中信建投信用天津联通" Address="60.28.29.77" Port="7718" Weight="0" idelay="0" TradVer="NO" HostType="1" yybids="" areas=""/>
+				<ITEM Name="中信建投信用广州电信" Address="59.42.241.69" Port="7718" Weight="0" idelay="0" TradVer="NO" HostType="1" yybids="" areas=""/>
+				<ITEM Name="中信建投信用新疆电信" Address="tdxxj.csc108.com" Port="7718" Weight="0" idelay="0" TradVer="NO" HostType="1" yybids="" areas=""/>
+			</Site>
+			<VipSite/>
+			<LoginMode>
+				<ITEM AccountType="8" Prompt="资金帐号" HostType="0"/>
+				<ITEM AccountType="8" Prompt="信用帐号" HostType="1"/>
+				<ITEM AccountType="0" Prompt="深Ａ股东" HostType="0"/>
+				<ITEM AccountType="1" Prompt="沪Ａ股东" HostType="0"/>
+				<ITEM AccountType="2" Prompt="深Ｂ股东" HostType="0"/>
+				<ITEM AccountType="3" Prompt="沪Ｂ股东" HostType="0"/>
+			</LoginMode>
+			<SecurityMode/>
+			<Branch>
+				<ITEM ID="1" AutoFill="0" Name="普通交易" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="9999" AutoFill="0" Name="信用交易" NoPrefix="0" HostType="1" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="安吉天荒坪路营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="安康解放路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="安阳德隆街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="鞍山五一路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="鞍山人民路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="宝鸡经二路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京安立路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京北辰西路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京昌平昌崔路营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京朝阳大悦城营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京大兴金星西路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京大柳树路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京大屯路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京丹棱街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京东三环中路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京东直门南大街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京方庄路营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京富丰路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京海淀西翠路营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京怀柔府前街营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京回龙观西大街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京金融大街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京酒仙桥路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京良乡拱辰南大街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京马家堡西路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京南大红门路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京农大南路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京三里河路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京时代花园南路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京顺义站前街营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京太平桥路营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京太阳宫中路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京通州通朝大街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京望京中环南路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京宣武门外大街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京小营路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京燕山燕房路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京亦庄荣华中路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京远大路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京知春路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京朝外大街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="北京广渠门内大街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="沧州解放西路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="景德镇瓷都大道证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="常德柳叶大道证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="常熟锁澜南路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="常州广电西路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="常州延陵西路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="潮州潮枫路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="郴州解放路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="成都马家花园证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="成都南一环路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="成都邛崃永丰路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="成都天府三街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="慈溪三北西大街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="大安人民路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="大连同兴街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="东莞东莞大道证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="东营东三路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="福州浦上大道证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="佛山南海城南二路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="佛山南海区南桂东路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="佛山南庄证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="佛山顺德大良证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="佛山顺德新桂路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="福清田乾路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="福州东街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="赣州文清路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="广元利州东路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="广州番禺国泰路营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="广州黄埔东路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="广州花城大道证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="广州体育东路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="广州云城南三路营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="广州增城凤凰城步行南街营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="广州中山三路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="贵阳延安中路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="哈尔滨新阳路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="哈尔滨上京大道证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="哈尔滨中医街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="海口海府大道东湖证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="海口龙华路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="汉中兴汉路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="杭州庆春路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="杭州萧山市心中路营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="杭州余杭南大街营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="合肥长江西路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="衡阳解放西路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="呼和浩特乌兰察布东街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="黄石广场路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="吉安泰和工农兵大道证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="吉安永新湘赣大道证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="吉安井冈山大道证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="吉林解放东路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="济南经四路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="济南泺源大街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="济宁吴泰闸路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="嘉兴洪兴路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="简阳雄州大道证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="揭阳站前路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="金昌公园路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="锦州解放路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="荆州北京西路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="九江浔阳东路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="昆明人民东路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="昆山前进中路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="兰州金昌路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="老河口东启街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="醴陵李畋西路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="连云港东海牛山南路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="连云港龙河南路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="临汾向阳西路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="泸州泸县花园干道证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="泸州迎晖路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="洛阳南昌路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="南昌北京西路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="南昌抚河中路证券证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="南昌井冈山大道证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="南昌榕门路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="南京洪武路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="南京江宁金箔路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="南京珠江路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="南康蓉江西路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="南宁金湖路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="南平八一路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="南通工农北路营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="宁波曙光路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="萍乡建设东路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="莆田学园南街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="青岛南京路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="青岛云南路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="清远清新清新大道证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="泉州丰泽街营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="瑞金中山路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="厦门民族路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="厦门凤山路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="厦门观日路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="厦门杏东路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="汕头海滨路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="6" AutoFill="0" Name="上海B股交易中心" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="上海北京西路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="上海大木桥路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="上海国宾路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="上海哈密路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="上海鸿兴路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="上海华灵路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="上海浦东新区福山路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="上海闵行区江文路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="上海青浦证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="上海浦东南路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="上海五莲路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="上海徐家汇路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="上海营口路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="上海徐汇区太原路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="上海张杨北路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="上海控江路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="上饶赣东北大道证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="上饶广丰永丰大道证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="绍兴胜利东路营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="深圳宝安前进一路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="深圳福中路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="深圳深南中路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="深圳深南中路中核大厦证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="深圳学府路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="沈阳北站路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="十堰朝阳中路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="石家庄建设南大街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="石家庄辛集新开街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="苏州工业园区星海街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="太原新建路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="泰州青年路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="台州市府大道证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="唐山建设北路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="天津滨海新区展望路营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="天津红旗南路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="天津解放南路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="天津津南紫江路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="天津南京路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="天水重新街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="咸阳渭阳西路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="潍坊福寿西街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="威海新威路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="温州车站大道证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="乌鲁木齐南湖北路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="无锡长江北路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="武汉红旗街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="武汉建设八路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="武汉京汉大道营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="武汉香港路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="武汉关山大道证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="武汉中北路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="西安科技路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="西安南大街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="西安雁展路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="西宁北大街营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="襄阳长虹路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="襄阳檀溪路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="新乡新飞大道证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="兴化牌楼西路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="宿迁恒山路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="许昌智慧大道证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="烟台青年路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="宜昌解放路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="义乌县前街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="银川湖滨西街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="榆林肤施路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="岳阳建湘路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="郧县解放路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="张家港人民中路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="张家界子午东路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="长春人民大街证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="长乐吴航路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="长沙车站北路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="长沙芙蓉中路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="长沙金星中路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="长沙星沙证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="1" AutoFill="0" Name="郑州经三北路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="中山中山四路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="重庆涪陵广场路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="重庆汉渝路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="重庆合川南屏路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="重庆开州证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="重庆青枫北路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="重庆龙山路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="重庆南坪西路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="重庆綦江双龙路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="重庆黔江证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="重庆万州证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="扬州江阳中路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="3" AutoFill="0" Name="株洲建设中路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+				<ITEM ID="2" AutoFill="0" Name="淄博中心路证券营业部" NoPrefix="0" HostType="0" Prefix=""/>
+			</Branch>
+			<BranchMap HEADLEN="3" MAXACCOUNTLEN="8">
+				<yybs>
+					<ITEM ID="1" Prefix="121-127;203-229;235-235;251-293;295-299;307-308;310-311;320-329;"/>
+					<ITEM ID="2" Prefix="303-306;333-366;385-389;390-399;901-979;981-986;"/>
+					<ITEM ID="3" Prefix="010-099;105-109;110-119;130-179;502-539;550-583;650-650;670-670;980-980;"/>
+					<ITEM ID="2" Prefix="100-100;120-120;190-190;603-603;613-613;615-617;620-639;801-889;"/>
+					<ITEM ID="3" Prefix="605-612;701-799;"/>
+					<ITEM ID="9999" Prefix="990-995;"/>
+				</yybs>
+			</BranchMap>
+			<VipSite2/>
+		</ITEM>
+	</Classification>
+</ProfileOfSystem>
